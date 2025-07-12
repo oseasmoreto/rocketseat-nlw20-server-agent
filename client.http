@@ -26,7 +26,7 @@ Content-Type: application/json
 
 ###
 
-@roomId = {{createRoom.response.body.$.roomId}}
+@roomId = b7743b77-be91-4f46-aa95-fa895b5f30fa
 
 ###
 
@@ -43,5 +43,5 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "questions": "Como vc faz pra ser tão bonitão?"
+  "questions": "O que é vueJS?"
 }
