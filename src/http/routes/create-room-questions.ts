@@ -20,8 +20,6 @@ export const createRoomQuestionRoute: FastifyPluginCallbackZod = (app) => {
       const { roomId } = request.params;
       const { questions } = request.body;
 
-      console.log(questions);
-
       const result = await db
         .insert(schema.questions)
         .values({
